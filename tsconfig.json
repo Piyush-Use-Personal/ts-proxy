@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+      "outDir": "./dist",                             
+      "moduleResolution": "node",
+      "noImplicitAny": true,
+      "baseUrl": ".",
+      "typeRoots": [
+          "./types",
+          "./node_modules/@types"
+      ],
+      "target": "es5",
+      "module": "commonjs",
+      "lib": ["es2020"],
+      "allowJs": true,
+      "rootDir": "./",
+      "strict": true,
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "sourceMap": true
+  },
+  "include": [
+      "src"
+  ],
+  "exclude": [
+      "node_modules",
+  ]
+}
